@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Light background for contrast */
+    color: #000; /* Black text */
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero-placeholder.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero .btn {
+    background-color: #d4af37; /* Gold button */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar .logo-img {
+    width: 60px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #d4af37; /* Gold links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white; /* White section background */
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: black;
+    border-bottom: 3px solid #d4af37; /* Gold underline */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.service-card {
+    background-color: white;
+    border: 1px solid #d4af37; /* Gold border */
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.service-card h3 {
+    color: #d4af37; /* Gold headings */
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.contact form {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #d4af37; /* Gold border */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d4af37; /* Gold borders */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact form button {
+    background-color: #d4af37; /* Gold button */
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-details {
+    text-align: left;
+    max-width: 300px;
+}
+
+.contact-details p a {
+    color: #d4af37; /* Gold link */
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    border-top: 3px solid #d4af37; /* Gold top border */
+}
